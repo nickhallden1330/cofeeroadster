@@ -33,12 +33,12 @@
   }
 
   body {
-    font-family: "roboto" Arial, sans-serif;
-    background-image: url("../images/hero-img.jpg"), url("../images/background.png");
-    background-repeat: no-repeat;
-    background-size: 710px 696px, 100%;
-    background-position: calc(50% + 413px), 100%;
-    background-position-y: calc(108px), 0;
+      font-family: "roboto" Arial, sans-serif;
+      background-image: url("../images/img.png") , url("../images/hero-img.jpg"), url("../images/background.png");
+      background-repeat: no-repeat;
+      background-size: 160px 160px, 710px 696px, 100%;
+      background-position: calc(50% + 55px) ,  calc(50% + 413px), 100%;
+      background-position-y: calc(6%) , calc(100px), 0;
   }
 
   img {
@@ -100,12 +100,12 @@
 
 
 .hero-content {
-    padding-top: 154px;
+    padding-top: 110px;
 }
 
 .hero-title-inner {
     width: 464px;
-    
+    padding-bottom: 58px;
 }
 
 .hero-title {
@@ -121,10 +121,10 @@
     font-size: 16px;
     line-height: 24px;
     color: #000000;
-    padding-bottom: 34px;
 }
 
 .hero-link {
+    margin-top: 10px;
     padding: 16px 24px;
     text-decoration: none;
     background: #0A775F;
