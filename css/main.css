@@ -34,6 +34,7 @@
 
   body {
       font-family: "roboto" , Arial , sans-serif;
+      overflow-x: hidden;
   }
 
   img {
@@ -161,16 +162,6 @@
     padding: 20px;
 }
 
-.our {
- 
-    padding: 50px 0 50px 0;
-    background-image: url("../images/our-bgr.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-color: #F8F8F2;
-    background-blend-mode: overlay;
-}
-
 .our-section::before {
     position: absolute;
     top: 110px;
@@ -185,15 +176,36 @@
 
 .our-section::after {
     position: absolute;
-    top: 730px;
-    left: calc(50% + 420px);
+    top: 1263px;
+    left: calc(50% - 875px);
     width: 392px;
     height: 477px;
-    background-image: url("../images/Vector.png");
+    background-image: url("../images/after.png");
     background-repeat: no-repeat;
     background-size: 316px 296px;
     content: "";
 }
+
+.our {
+    padding: 50px 0 50px 0;
+    background-image: url("../images/our-bgr.png");
+    background-repeat: no-repeat;
+    background-color: #F8F8F2;
+    background-blend-mode: overlay;
+}
+
+.our::before {
+    position: absolute;
+    top: 730px;
+    left: calc(50% + 513px);
+    width: 392px;
+    height: 477px;
+    background-image: url("../images/our-bg.png");
+    background-repeat: no-repeat;
+    background-size: 392px 477px;
+    content: "";
+}
+
 
 /* position: absolute;
     top: 730px;
