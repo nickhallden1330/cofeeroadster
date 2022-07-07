@@ -254,12 +254,12 @@ img {
     flex-direction: row-reverse;
 }
 
-.our-img {
-    margin-right: 117px;
-}
-
 .our-content {
     width: 410px;
+        margin-left: 117px;
+    &:nth-child(even) {
+        margin-right: 117px;
+    }
 }
 
 .our-title {
@@ -409,7 +409,7 @@ img {
 }
 
 .content_img ~ .content_img {
-    margin-left: 393px;
+    margin-left: 398px;
 }
 
 .it__list {
