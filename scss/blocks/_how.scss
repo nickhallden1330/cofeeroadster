@@ -82,8 +82,12 @@ summary {
 .how__img {
     margin-left: 44px;
 }
-
+.how__right-wrapper{
+    display: flex;
+    align-items: flex-start;
+}
 .how__right__label {
+    height: 220px;
     margin-right: 20px;
     width: 206px;
     padding: 30px 0 56px 16px;
@@ -112,6 +116,7 @@ summary {
     color: #000000;
 }
 
+
 .how__right__ititle {
     margin-bottom: 10px;
     display: block;
@@ -120,18 +125,23 @@ summary {
     line-height: 28px;
     font-variant: small-caps;
     color: #333333;
-
+    
 }
 
 .how__right__inner__p {
     width: 173px;
 }
 
+
 .how__right__text {
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
     color: #333333;
+}
+
+.how__right__text--open {
+    font-size: 17px;
 }
 
 .how__right__content {

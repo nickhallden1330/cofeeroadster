@@ -1184,7 +1184,13 @@ summary {
   margin-left: 44px;
 }
 
+.how__right-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+
 .how__right__label {
+  height: 220px;
   margin-right: 20px;
   width: 206px;
   padding: 30px 0 56px 16px;
@@ -1232,6 +1238,10 @@ summary {
   font-size: 18px;
   line-height: 24px;
   color: #333333;
+}
+
+.how__right__text--open {
+  font-size: 17px;
 }
 
 .how__right__content {
