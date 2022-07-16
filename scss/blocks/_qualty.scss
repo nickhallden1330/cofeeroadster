@@ -1,0 +1,51 @@
+.qualty {
+    margin: 20px;
+    padding-top: 120px;
+    
+}
+
+.qualty__inner {
+    position: relative;
+    padding: 100px 0 95px 143px;
+    background-image: url("../../images/qualty-pes.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: overlay;
+    background-color: #C99B67;
+    &::before {
+        position: absolute;
+        width: 550px;
+        height: 500px;
+        top: -80px;
+        right: calc(50% - 640px);
+        background-image: url("../../images/us2.png");
+        background-repeat: no-repeat;
+        background-size: 550px 500px;
+        content: "";
+    }
+}
+
+.qualty__title--inner {
+    width:  397px;
+}
+
+.qualty__title {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    font-variant: small-caps;
+    color: #FFFFFF;
+}
+
+
+.qualty__text--inner {
+    width: 586px;
+}
+
+.qualty__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}

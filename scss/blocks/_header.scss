@@ -1,0 +1,48 @@
+.section-header {
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #F3D7B7;
+    background-blend-mode: overlay;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.header-logo {
+    display: inline-block;
+    &:hover {
+        opacity: 0.6;
+    }
+    &:active {
+        opacity: 0.4;
+    }
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-list {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    margin-left: auto ;
+}
+
+.header-link {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #333333;
+    &:hover {
+        opacity: 0.6;
+    }
+    &:active {
+        opacity: 0.4;
+    }
+}

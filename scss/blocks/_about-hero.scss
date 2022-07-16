@@ -1,0 +1,41 @@
+.about-hero-section {
+    position: relative;
+    padding: 116px 0 249px 0;
+    background-image: url("../../images/About-her.png"), url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: 710px 596px, 100%;
+    background-position: calc(50% + 405px) bottom, center center;
+    background-blend-mode: normal, overlay;
+    background-color: #F3D7B7;
+}
+
+.about-hero-section::before {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: -60px;
+    left: calc(50% - 20px);
+    background-image: url("../images/img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+}
+
+.about-hero-title-inner {
+    width: 372px;
+}
+
+.about-hero-title {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #000000;
+}
+
+.about-hero-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}

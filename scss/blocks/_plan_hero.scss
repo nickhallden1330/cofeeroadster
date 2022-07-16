@@ -1,0 +1,64 @@
+.plan-hero-section {
+    position: relative;
+    padding: 116px 0 285px 0;
+    background-image: url("../../images/plan-hero.png"), url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: 710px 596px, 100%;
+    background-position: calc(50% + 405px) bottom, center center;
+    background-blend-mode: normal, overlay;
+    background-color: #F3D7B7;
+    &::before {
+        width: 160px;
+        height: 160px;
+        position: absolute;
+        top: -67px;
+        left: calc(50% - 20px);
+        background-image: url("../images/img.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        content: "";
+    }
+}
+
+
+
+.plan_hero-title-inner {
+    width: 372px;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+.hero-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.hero-link {
+    display: inline-block;
+    padding: 16px 24px;
+    text-decoration: none;
+    background-color: #0A775F;
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-variant: small-caps;
+    color: #FFFFFF;
+    &:hover {
+        background-color: #0A775F05;
+    }
+    &:active {
+        background-color: #90ee90;
+        color: #0000ff;
+    }
+}
